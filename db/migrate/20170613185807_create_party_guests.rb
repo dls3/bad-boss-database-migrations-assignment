@@ -4,7 +4,7 @@ class CreatePartyGuests < ActiveRecord::Migration[5.0]
       t.string :first_name
       t.string :last_name
       t.string :dietary_restrictions
-      t.quantity :salary
+      t.integer :salary
       t.quantity :number_of_kids
       t.text :vulnerabilities
       t.string :illnesses
